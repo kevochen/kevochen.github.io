@@ -55,7 +55,7 @@ h3 {
   font-family: isoc;
   font-size: 20px;
   color: grey;
-  margin: 10px 0 0 0;
+  margin: 10px 0 10px 0;
   letter-spacing: -2px;
 }
 
@@ -211,11 +211,11 @@ button[type="submit"]:hover {
   color: white;
 }
 
-.meat img {
+.meat img {	
   width: 400px;
   max-width: 80%;
-  padding: 10px;
-  border-radius: 18px;
+  padding: 0px;
+  border-radius: 12px;
   min-width: 100px;
 }
 
@@ -240,4 +240,23 @@ button[type="submit"]:hover {
 
 .links a {
   padding: 0 5vw;
+}
+
+.img-text {
+  vertical-align: bottom;
+  display: inline-block;
+  text-align: center;
+  background-color: #191B21;
+  padding-top: 36px;
+  border-radius: 12px;
+  margin: 0px;
+  width: 500px;
+}
+
+.caption {
+  font-family: robo;
+  color: white;
+  display: block;
+  padding: 20px;
+  text-align: center;
 }
