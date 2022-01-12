@@ -141,6 +141,7 @@ button[type="submit"]:hover {
   padding: 10px 0 10px 0;
   background-color: #191B21;
   margin: 0 0 20px 0;
+  word-spacing: -5px;
 }
 
 .menu a {
