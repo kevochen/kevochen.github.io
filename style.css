@@ -279,3 +279,12 @@ button[type="submit"]:hover {
   padding: 20px;
   text-align: center;
 }
+
+.caption a {
+  color: #F78888;
+  text-decoration: none;
+}
+
+.caption a:hover {
+  color: white;
+}
