@@ -28,6 +28,11 @@
   src: url(fonts/BeVietnamPro-ThinItalic.ttf);
 }
 
+@font-face {
+  font-family: epi;
+  src: url(fonts/Epilogue-Regular.ttf);
+}
+
 @viewport {
   zoom: 1.0;
   width: extend-to-zoom;
@@ -41,21 +46,21 @@
 }
 */
 body {
-background: rgb(255,221,218);
-background: linear-gradient(103deg, rgba(255,221,218,1) 0%, rgba(187,220,252,1) 84%);
+  background: rgb(255,221,218);
+  background: linear-gradient(103deg, rgba(255,221,218,1) 0%, rgba(187,220,252,1) 84%);
   margin: 0px 0px 21px 0px;
   min-width: 300px;
 }
 
 h1 {
-  font-family: pro;
+  font-family: epi;
   font-size: 50px;
   letter-spacing: 5px;
-  color: #FC4445;
+  color: #ff4e44;
   line-height: 50px;
   margin-bottom: 15px;
   text-align: center;
-  text-shadow: 5px 5px 11px #A1A1A1;
+  text-shadow: 4px 3px 0px #B0D5FF;
 }
 
 h2 {
