@@ -41,8 +41,8 @@
 }
 */
 body {
-background: rgb(255,221,218);
-background: linear-gradient(103deg, rgba(255,221,218,1) 0%, rgba(187,220,252,1) 84%);
+background: rgb(209,189,132);
+background: linear-gradient(103deg, rgba(209,189,132,1) 0%, rgba(223,238,253,1) 100%);
   margin: 0px 0px 21px 0px;
   min-width: 300px;
 }
@@ -55,14 +55,13 @@ h1 {
   line-height: 50px;
   margin-bottom: 15px;
   text-align: center;
-  text-shadow: 5px 5px 11px #A1A1A1;
 }
 
 h2 {
   font-family: prothin;
   font-size: 24px;
   letter-spacing: 5px;
-  color: #3290ff;
+  color: #5abdff;
   line-height: 25px;
   margin-bottom: 30px;
   margin-top: 30px;
