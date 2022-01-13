@@ -41,9 +41,9 @@
 }
 */
 body {
-  background: rgb(230,207,145);
-  background: linear-gradient(114deg, rgba(230,207,145,1) 0%, rgba(255,242,205,1) 100%);
-  margin: 0px 0px 10px 0px;
+  color: white;
+  background: linear-gradient(105deg, #ffdc7a 60%, #FDF5DF 60%);
+  margin: 0;
   min-width: 300px;
 }
 
@@ -157,11 +157,11 @@ button[type="submit"]:hover {
 .menu {
   backdrop-filter: blur(5px);
   padding: 10px 0 10px 0;
-  background-color: rgba(255, 255, 255, .15);  
-  backdrop-filter: blur(20px);
+  background-color: #90CCF4;
+  backdrop-filter: blur(5px);
   margin: 0 0 20px 0;
   word-spacing: -5px;
-  border-radius: 8px;
+  border-radius: 3px;
 }
 
 .menu a {
@@ -169,8 +169,8 @@ button[type="submit"]:hover {
   letter-spacing: 1px;
   word-spacing: 1px;
   font-size: 25px;
-  color: black;
-  padding: 0 18px 0 18px;
+  color: #ECECEC;
+  padding: 0 10px 0 10px;
   text-decoration: none;
 }
 
@@ -268,8 +268,7 @@ button[type="submit"]:hover {
   vertical-align: bottom;
   display: inline-block;
   text-align: center;
-  background-color: rgba(255, 255, 255, .15);  
-  backdrop-filter: blur(20px);
+  background-color: #addaff;
   padding-top: 36px;
   border-radius: 12px;
   margin: 0px;
